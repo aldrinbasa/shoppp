@@ -1,0 +1,75 @@
+:root {
+    --primary-color-one: black;
+    --primary-color-two: white;
+}
+
+.register {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.register h1 {
+    font-size: 64px;
+    margin: 0;
+    text-align: center;
+}
+
+.register .title {
+    margin: 0;
+}
+
+.register p {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.register button {
+    background-color: var(--primary-color-one);
+    color: var(--primary-color-two);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 64px;
+    margin: 20px 0 !important;
+    padding: 0;
+    font-size: 18px;
+}
+
+.register input {
+    font-size: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 64px;
+    margin: 3px 0px 3px 0px !important;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.register .login {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.register span {
+    color: var(--primary-color-one);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.register_link {
+    cursor: pointer;
+    text-decoration: underline;
+}

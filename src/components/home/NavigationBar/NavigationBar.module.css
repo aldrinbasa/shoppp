@@ -1,0 +1,20 @@
+.nav_bar {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav_bar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav_bar li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}

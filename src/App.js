@@ -1,22 +1,30 @@
-import './App.css';
+import { Fragment, useState } from "react";
+import "./App.css";
+
+import Login from "./components/login/login.js";
+import Register from "./components/register/register.js";
+import NavigationBar from "./components/home/NavigationBar/NavigationBar";
 
 function App() {
+  const [willLogin, setWillLogin] = useState(true);
+
+  const clickHandler = () => {
+    setWillLogin(!willLogin);
+  };
+
+  const renderForms = () => {
+    if (willLogin) {
+      return <Login onRegisterClick={clickHandler}></Login>;
+    } else {
+      return <Register onLoginClick={clickHandler}></Register>;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <NavigationBar />
+      <div className="main">{renderForms()}</div>
+    </Fragment>
   );
 }
 
