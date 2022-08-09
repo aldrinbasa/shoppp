@@ -1,0 +1,19 @@
+.item {
+    height: 502px;
+    width: 370px;
+}
+
+.item .image {
+    background-color: gainsboro;
+    width: 370px;
+    height: 370px;
+}
+
+.item .title {
+    font-size: 24px;
+    margin: 34px auto 12px auto;
+}
+
+.item .price {
+    font-size: 14px;
+}
