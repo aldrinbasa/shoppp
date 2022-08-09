@@ -1,6 +1,8 @@
 import loginStyles from "./login.module.css";
 import { Fragment } from "react";
 
+import MainButton from "../UI/MainButton/MainButton";
+
 const Login = (props) => {
   return (
     <Fragment>
@@ -15,7 +17,7 @@ const Login = (props) => {
         <form>
           <input type="text" placeholder="Email"></input>
           <input type="password" placeholder="Password"></input>
-          <button type="submit">Login</button>
+          <MainButton type="submit">Login</MainButton>
         </form>
 
         <div className={loginStyles.register}>
