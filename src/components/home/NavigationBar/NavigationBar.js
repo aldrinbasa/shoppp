@@ -7,13 +7,13 @@ const NavigationBar = () => {
       <div className={navBarStyles.table}>
         <ul>
           <li>
-            <button>Home</button>
+            <a href="/#">Home</a>
           </li>
           <li>
-            <button>Shoppp</button>
+            <a href="/#">Shoppp</a>
           </li>
           <li>
-            <button>Profile</button>
+            <a href="/#">Profile</a>
           </li>
         </ul>
       </div>
