@@ -6,9 +6,15 @@ const NavigationBar = () => {
     <div className={navBarStyles.nav_bar}>
       <div className={navBarStyles.table}>
         <ul>
-          <li>Home</li>
-          <li>Shoppp</li>
-          <li>Profile</li>
+          <li>
+            <button>Home</button>
+          </li>
+          <li>
+            <button>Shoppp</button>
+          </li>
+          <li>
+            <button>Profile</button>
+          </li>
         </ul>
       </div>
     </div>

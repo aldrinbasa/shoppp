@@ -11,7 +11,19 @@
 .nav_bar li {
     display: inline;
     margin: 0 20px;
+}
+
+.nav_bar button {
     font-size: 24px;
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.nav_bar button:hover {
+    background-color: #3e8e41;
+    color: white;
 }
 
 .table {
