@@ -1,0 +1,44 @@
+.itemDetails {
+    display: flex;
+}
+
+.itemDetails img {
+    width: 710px;
+    height: 600px;
+    background-color: black;
+}
+
+.itemDetails .details {
+    width: 438px;
+    background-color: gainsboro;
+    margin-left: 22px;
+}
+
+.itemDetails .title {
+    font-size: 24px;
+    width: 325px;
+    margin: 76px 56px 0 56px;
+}
+
+.itemDetails .sellerName {
+    font-size: 18px;
+    margin: 10px 56px 0 56px;
+}
+
+.itemDetails .starRating {
+    background-color: gray;
+    height: 22px;
+    width: 146px;
+    margin: 0 56px 0 56px;
+}
+
+.itemDetails .description {
+    font-size: 18px;
+    margin: 27px 56px 0 56px;
+    width: 325px;
+}
+
+.itemDetails .price {
+    font-size: 18px;
+    margin: 26px 56px 0 56px;
+}
