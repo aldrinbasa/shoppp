@@ -1,0 +1,23 @@
+.home {
+
+}
+.head {
+    display: grid;
+    width: 1170px;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+} 
+.headContent {
+    display: inline-grid;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.itemsFeed {
+    display: flex;
+    margin-top: 81px;
+    column-gap: 30px;
+    row-gap: 81px;
+    max-width: 1170px;
+    flex-wrap: wrap;
+}

@@ -4,7 +4,7 @@ import itemStyles from './ItemCard.module.css';
 const ItemCard = () => {
     return (
         <section className={itemStyles.item}>
-            <img className={itemStyles.image} src="/" />
+            <img className={itemStyles.image} src="/" alt=""/>
             <p className={itemStyles.title}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <span className={itemStyles.price}>$$</span>
         </section>

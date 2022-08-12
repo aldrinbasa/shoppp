@@ -1,9 +1,13 @@
 import React from 'react';
-import MainButton from '../UI/MainButton/MainButton';
+
+import MainButton from "../../UI/MainButton/MainButton.js";
+import ViewCartStyles from "./ViewCartButton.module.css";
 
 const ViewCartButton = () => {
     return (
-        <MainButton>View Cart</MainButton>
+        <div className={ViewCartStyles.button}>
+            <MainButton>View Cart</MainButton>
+        </div>
     );
 };
 
