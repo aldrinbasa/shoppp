@@ -4,6 +4,11 @@ import { Fragment } from "react";
 import MainButton from "../UI/MainButton/MainButton";
 
 const Login = (props) => {
+  const submitHandler = (e) => {
+    e.preventDefault();
+    props.login();
+  };
+
   return (
     <Fragment>
       <div className={loginStyles.login}>
@@ -17,7 +22,9 @@ const Login = (props) => {
         <form>
           <input type="text" placeholder="Email"></input>
           <input type="password" placeholder="Password"></input>
-          <MainButton type="submit">Login</MainButton>
+          <MainButton type="submit" onClick={submitHandler}>
+            Login
+          </MainButton>
         </form>
 
         <div className={loginStyles.register}>

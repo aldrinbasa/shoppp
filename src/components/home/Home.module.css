@@ -1,12 +1,14 @@
 .home {
     margin: 154px auto 228px auto;
 }
+
 .head {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 30px;
     justify-content: center;
-} 
+}
+
 .headContent {
     display: inline-grid;
     margin-top: 12px;
