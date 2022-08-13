@@ -48,7 +48,9 @@ const ItemDetails = () => {
           ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <p className={itemDetailsStyles.price}>$$</p>
-        <MainButton>Add to Cart</MainButton>
+        <div className={itemDetailsStyles.addCartBtn}>
+          <MainButton>Add to Cart</MainButton>
+        </div>
       </div>
     </div>
   );
