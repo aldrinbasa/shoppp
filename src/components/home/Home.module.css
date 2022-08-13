@@ -1,11 +1,11 @@
 .home {
-
+    margin: 154px auto 228px auto;
 }
 .head {
     display: grid;
-    width: 1170px;
     grid-template-columns: auto auto;
     column-gap: 30px;
+    justify-content: center;
 } 
 .headContent {
     display: inline-grid;
@@ -15,7 +15,7 @@
 
 .itemsFeed {
     display: flex;
-    margin-top: 81px;
+    margin: 81px auto 0 auto;
     column-gap: 30px;
     row-gap: 81px;
     max-width: 1170px;
