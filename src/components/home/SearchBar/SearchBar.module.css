@@ -1,7 +1,22 @@
 .searchBar {
-    width: 770px;
-    height: 60px;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 5px;
+  width: 770px;
+  min-width: 370px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 0;
+}
+
+@media screen and (min-width: 779px) and (max-width: 1170px) {
+  .searchBar {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .searchBar {
+    width: 90vw;
+  }
 }

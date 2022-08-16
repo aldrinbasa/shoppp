@@ -1,25 +1,30 @@
 .home {
-    margin: 154px auto 228px auto;
+  margin: 154px auto 228px auto;
 }
 
 .head {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 30px;
-    justify-content: center;
-}
-
-.headContent {
-    display: inline-grid;
-    margin-top: 12px;
-    margin-bottom: 40px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .itemsFeed {
-    display: flex;
-    margin: 81px auto 0 auto;
-    column-gap: 30px;
-    row-gap: 81px;
-    max-width: 1170px;
-    flex-wrap: wrap;
+  display: flex;
+  margin: 81px auto 0 auto;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 81px;
+  max-width: 1170px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 770px) {
+  .head {
+    column-gap: 0;
+  }
+
+  .headContent {
+    margin: auto 5px auto;
+  }
 }

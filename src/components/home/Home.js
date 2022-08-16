@@ -8,15 +8,13 @@ const Home = () => {
   const renderFeed = () => {
     const NUM_OF_ITEMS = 9;
     var itemsArr = Array.apply(null, Array(NUM_OF_ITEMS));
-    return itemsArr.map((item, key) => <ItemCard></ItemCard>);
+    return itemsArr.map(() => <ItemCard></ItemCard>);
   };
 
   return (
     <section className={HomeStyles.home}>
       <div className={HomeStyles.head}>
-        <div className={HomeStyles.headContent}>
-          <SearchBar></SearchBar>
-        </div>
+        <SearchBar className={HomeStyles.headContent}></SearchBar>
         <ViewCartButton className={HomeStyles.headContent}></ViewCartButton>
       </div>
       <div className={HomeStyles.itemsFeed}>{renderFeed()}</div>
