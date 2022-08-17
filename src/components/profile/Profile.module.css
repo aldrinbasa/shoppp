@@ -1,0 +1,42 @@
+.profile {
+  text-align: center;
+}
+
+.userInfo .name {
+  font-size: 64px;
+}
+
+.userInfo .email {
+  font-size: 20px;
+}
+
+.accountState {
+  display: flex;
+  justify-content: center;
+  column-gap: 37px;
+}
+
+.buyer {
+  width: 200px;
+}
+
+.seller {
+  width: 200px;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 28px;
+}
+
+.button img {
+  margin: auto;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.button {
+  text-align: center;
+  font-size: 20px;
+}
