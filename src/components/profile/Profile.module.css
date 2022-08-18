@@ -3,11 +3,14 @@
 }
 
 .userInfo .name {
+  display: block;
   font-size: 64px;
 }
 
 .userInfo .email {
   font-size: 20px;
+  display: block;
+  margin: 10px auto;
 }
 
 .accountState {
@@ -22,21 +25,45 @@
 
 .seller {
   width: 200px;
+  color: var(--primary-color-one);
+  background-color: var(--primary-color-two);
+}
+
+.seller:hover {
+  background-color: var(--primary-color-one);
+  color: var(--primary-color-two);
 }
 
 .buttonsDiv {
   display: flex;
+  flex-wrap: wrap;
+  margin: auto;
   justify-content: center;
   column-gap: 28px;
 }
 
-.button img {
+.profileBtn img {
+  width: 54px;
+  height: 54px;
   margin: auto;
   border-radius: 50%;
-  background-color: black;
+  background-color: var(--primary-color-one);
 }
 
-.button {
+.profileBtn {
+  color: var(--primary-color-one);
+  background-color: var(--primary-color-two);
+  width: 270px !important;
+  height: 172px !important;
+}
+
+.profileBtn:hover {
+  background-color: var(--primary-color-one);
+  color: var(--primary-color-two);
+}
+
+.profileBtn span {
   text-align: center;
+  display: block;
   font-size: 20px;
 }

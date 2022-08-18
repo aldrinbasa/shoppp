@@ -10,28 +10,30 @@ const Profile = () => {
         <span className={profileStyles.name}>Juan D. Cruz</span>
         <span className={profileStyles.email}>Email: juandelacruz@gmail.com</span>
         <div className={profileStyles.accountState}>
-          <MainButton className={profileStyles.buyer}>Buyer</MainButton>
-          <MainButton className={profileStyles.seller}>Seller</MainButton>
+          <MainButton customStyle={"buyer"}>Buyer</MainButton>
+          <MainButton customStyle={"seller"}>Seller</MainButton>
         </div>
       </div>
       <div className={profileStyles.buttonsDiv}>
-        <MainButton className={profileStyles.button}>
-          <img alt="icon" src="/">
-          Browse Furniture
+        <MainButton customStyle={"profileBtn"}>
+          <img alt="icon" src="/" />
+          <span>Browse Furniture</span>
         </MainButton>
-        <MainButton className={profileStyles.button}>
-          <img alt="icon" src="/">
-          View Cart
+        <MainButton customStyle={"profileBtn"}>
+          <img alt="icon" src="/" />
+          <span>View Cart</span>
         </MainButton>
-        <MainButton className={profileStyles.button}>
-          <img alt="icon" src="/">
-          Upcoming Deliveries
+        <MainButton customStyle={"profileBtn"}>
+          <img alt="icon" src="/" />
+          <span>Upcoming Deliveries</span>
         </MainButton>
-        <MainButton className={profileStyles.button}>
-          <img alt="icon" src="/">
-          Bought Furniture
+        <MainButton customStyle={"profileBtn"}>
+          <img alt="icon" src="/" />
+          <span>Bought Furniture</span>
         </MainButton>
       </div>
     </div>
   )
 };
+
+export default Profile;
