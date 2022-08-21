@@ -1,0 +1,39 @@
+.itemPrev {
+  display: flex;
+  column-gap: 40px;
+}
+
+.itemPrev .imgThumbnail {
+  min-width: 174px;
+  height: 174px;
+  background-color: var(--primary-color-one);
+}
+
+.itemPrev .quickDetailsDiv {
+  display: flex;
+  width: 807px;
+}
+
+.itemPrev .quickDetails {
+  background-color: var(--primary-color-two);
+  margin: 18px auto 18px 35px;
+}
+
+.itemPrev .quickDetails span {
+  max-width: 600px;
+  min-width: 200px;
+  max-height: 100px;
+  display: inline-block;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.itemPrev .quickDetailsDiv .itemBtns {
+  margin: 18px 35px 0 0;
+}
+
+@media screen and (max-width: 1021px) {
+  .itemPrev {
+    column-gap: 0;
+  }
+}
